@@ -23,3 +23,13 @@ for (let i = 2; i <= 10; i += 2) {
 for (let i = 1; i < 10; i += 2) {
     console.log(i);
 }
+
+// print emoji
+
+for (let i = 1; i <= 5; i++) {
+    let pattern = '';
+    for (let j = 1; j <= i; j++) {
+        pattern += '😎';
+    }
+    console.log(pattern);
+}
