@@ -24,12 +24,10 @@ for (let i = 1; i < 10; i += 2) {
     console.log(i);
 }
 
-// print emoji
+// print number name
 
-for (let i = 1; i <= 5; i++) {
-    let pattern = '';
-    for (let j = 1; j <= i; j++) {
-        pattern += '😎';
-    }
-    console.log(pattern);
+const myArray = ['one', 'two', 'three', 'four', ' five', 'six',' seven', ' eight', 'nine', 'ten'];
+
+for (let i = 0; i < myArray.length; i++) {
+    console.log(myArray[i]);
 }
